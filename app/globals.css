@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --key-color-01: #38b2ac;
+  --key-color-02: #319795;
+}
+
+@layer components {
+  .button-contained {
+    @apply w-[100%] bg-[var(--key-color-01)] hover:bg-[var(--key-color-02)] text-white;
+  }
+}

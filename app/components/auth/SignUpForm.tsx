@@ -77,13 +77,7 @@ function SignUpForm() {
       <FormItem name="kakaoTalkId" label="카카오톡 ID">
         <Input placeholder="카카오톡 ID를 입력해주세요." />
       </FormItem>
-      <Button
-        className="bg-[#38B2AC] w-[100%]"
-        mt={4}
-        colorScheme="teal"
-        type="submit"
-        variant="solid"
-      >
+      <Button className="button-contained w-[100%]" mt={4} type="submit">
         가입하고 시그널 보내러가기
       </Button>
     </Form>

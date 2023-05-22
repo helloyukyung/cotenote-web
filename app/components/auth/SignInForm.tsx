@@ -18,9 +18,8 @@ function SignInForm() {
       <FormLabel>비밀번호</FormLabel>
       <Input type="password" placeholder="비밀번호를 입력해주세요." />
       <Button
-        className="w-[100%]"
+        className="button-contained w-[100%]"
         mt={4}
-        colorScheme="teal"
         type="submit"
         variant="solid"
       >

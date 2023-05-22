@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center ">
+    <main className="flex min-h-screen flex-col gap-[10px] items-center ">
       메인 페이지
       <ButtonGroup>
         <Link href={"/auth/sign-in"}>
@@ -14,6 +14,11 @@ export default function Home() {
           <Button>회원가입하기</Button>
         </Link>
       </ButtonGroup>
+      {/* <Link href={"/payment"}> */}
+      <Button className="bg-[var(--key-color-01)] hover:bg-[var(--key-color-02)] text-white">
+        시그널 보내러 가기
+      </Button>
+      {/* </Link> */}
     </main>
   );
 }
