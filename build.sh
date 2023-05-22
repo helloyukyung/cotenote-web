@@ -1,5 +1,5 @@
 #!/bin/sh
 cd ../
 mkdir output
-cp -R ./cotenote-web/* ./output
-cp -R ./output ./cotenote-web/
+cp -R ./random-signal-web/* ./output
+cp -R ./output ./random-signal-web/
